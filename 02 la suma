@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+	//definir varible
+	int numero1, numero2;
+	int suma;
+	//entrada
+	printf("ingrese el numero 1: ");
+	scanf("%d", &numero1);
+	printf ("ingrese el numero 2: ");
+	scanf("%d", &numero2);
+	//proceso
+	suma=numero1+numero2;
+	//salida
+	printf ("el resultado de la suma es: %d\n", suma);
+	return 0;
+	}
